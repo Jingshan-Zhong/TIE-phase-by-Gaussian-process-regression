@@ -4,6 +4,7 @@ Note any commercial use or modification of the code is not allowed without the p
 In the GP TIE algorithm, we perform Gaussian process regression over the defocused intensity images [in Frequency domain] to estimate the intensity axial derivative, which is used to recover phase by the transport intensity of equation (TIE) method. GP TIE alleviates the nonlinearity error in the derivative estimation by using the prior knowledge of how intensity varies with defocus propagation in the spatial frequency domain. It doesn’t require the intensity images to be equally spaced, so the input intensity stack can be exponentially spaced, which is shown to be an efficient scheme to transfer the phase information into the measured intensity. For more details, please see the reference paper.
 
 ************************HOW TO USE THE CODE**************************
+
 How to run on the example data set:
 1)	Open Main_GPTIE.m and run in Matlab. The example data set will be automatically loaded.
 How to run on your own data set:
@@ -31,6 +32,7 @@ Note:
 at focus is assumed to be constant
 
 ***************************REFERENCE PAPER ***************************
+
 Zhong Jingshan, Rene A. Claus, Justin Dauwels, Lei Tian, and Laura Waller, "Transport of Intensity phase imaging by intensity spectrum fitting of exponentially spaced defocus planes," Opt. Express 22, 10661-10674 (2014)  
 
 
